@@ -185,7 +185,7 @@ This command assumes that two CUDA-enabled GPUs are available. Device settings m
 Run the two-shot experiment using:
 
 ```bash
-python "2-shot experiment.py"
+python 2-shot experiment.py
 ```
 
 Quotation marks are required because the filename contains a space.
