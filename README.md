@@ -190,29 +190,6 @@ python "2-shot experiment.py"
 
 Quotation marks are required because the filename contains a space.
 
-## Basic Workflow
-
-The recommended execution workflow is:
-
-```text
-1. Request access to the eRisk 2017 and eRisk 2018 datasets.
-2. Download the datasets.
-3. Place the dataset files in the corresponding local directories.
-4. Run the scripts in proc_pipeline/ to preprocess the datasets.
-5. Download the required pretrained models listed in pretrain_file/.
-6. Run one of the four experiments.
-7. Check the experimental results in the configured output directory.
-```
-
-## Notes
-
-* The eRisk datasets are not redistributed in this repository.
-* The processed data paths must be configured according to the local environment.
-* Large pretrained model files should generally not be uploaded directly to GitHub.
-* The E2-LPS command is configured for two GPUs by default.
-* Ensure that the spelling of `pretrain_file` is consistent in all commands and directory paths.
-* The experimental scripts may require additional project-specific configuration depending on the dataset format.
-
 ## License
 
 This repository is intended for academic research purposes only.
