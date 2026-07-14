@@ -213,21 +213,6 @@ The recommended execution workflow is:
 * Ensure that the spelling of `pretrain_file` is consistent in all commands and directory paths.
 * The experimental scripts may require additional project-specific configuration depending on the dataset format.
 
-## Citation
-
-If this repository is useful for your research, please cite the corresponding paper:
-
-```bibtex
-@article{social_media_depression_detection,
-  title   = {},
-  author  = {},
-  journal = {},
-  year    = {}
-}
-```
-
-The citation information will be updated after publication.
-
 ## License
 
 This repository is intended for academic research purposes only.
