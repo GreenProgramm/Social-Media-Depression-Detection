@@ -53,12 +53,6 @@ pip install torchmetrics==1.5.2 \
     numpy==1.24.3
 ```
 
-Alternatively, save the dependencies in a `requirements.txt` file and install them using:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Dataset
 
 We cannot include the datasets in this repository due to their terms of use and distribution restrictions.
